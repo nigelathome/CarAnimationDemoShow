@@ -20,6 +20,7 @@
 		91401F1C1DD426C100536417 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91401F1B1DD426C100536417 /* UIKit.framework */; };
 		91401F1F1DD4313900536417 /* AnimationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401F1E1DD4313900536417 /* AnimationDemoViewController.m */; };
 		91401F221DD43A3C00536417 /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401F211DD43A3C00536417 /* DemoView.m */; };
+		91401F251DD43E6C00536417 /* ActionStraightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401F241DD43E6C00536417 /* ActionStraightView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		91401F1E1DD4313900536417 /* AnimationDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationDemoViewController.m; sourceTree = "<group>"; };
 		91401F201DD43A3C00536417 /* DemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
 		91401F211DD43A3C00536417 /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
+		91401F231DD43E6C00536417 /* ActionStraightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionStraightView.h; sourceTree = "<group>"; };
+		91401F241DD43E6C00536417 /* ActionStraightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionStraightView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				91401F1E1DD4313900536417 /* AnimationDemoViewController.m */,
 				91401F201DD43A3C00536417 /* DemoView.h */,
 				91401F211DD43A3C00536417 /* DemoView.m */,
+				91401F231DD43E6C00536417 /* ActionStraightView.h */,
+				91401F241DD43E6C00536417 /* ActionStraightView.m */,
 			);
 			path = CarAnimationDemo;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				91401F081DD4206800536417 /* CarAnimationDemo.xcdatamodeld in Sources */,
 				91401F221DD43A3C00536417 /* DemoView.m in Sources */,
 				91401F021DD4206800536417 /* ViewController.m in Sources */,
+				91401F251DD43E6C00536417 /* ActionStraightView.m in Sources */,
 				91401EFF1DD4206800536417 /* AppDelegate.m in Sources */,
 				91401F1F1DD4313900536417 /* AnimationDemoViewController.m in Sources */,
 				91401EFC1DD4206800536417 /* main.m in Sources */,

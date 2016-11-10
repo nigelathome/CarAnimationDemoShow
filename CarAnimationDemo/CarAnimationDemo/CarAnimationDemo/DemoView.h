@@ -13,4 +13,7 @@
  */
 @interface DemoView : UIView
 
+@property (weak, nonatomic) UIImageView *vehicle; //reference a car in view
+@property (strong, nonatomic) UIDynamicAnimator *animator;
+
 @end

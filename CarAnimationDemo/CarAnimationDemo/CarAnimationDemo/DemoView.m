@@ -8,10 +8,10 @@
 
 #import "DemoView.h"
 
-@interface DemoView()
-@property (weak, nonatomic) UIImageView *vehicle; //reference a car in view
-@property (strong, nonatomic) UIDynamicAnimator *animator;
-@end
+//@interface DemoView()
+//@property (weak, nonatomic) UIImageView *vehicle; //reference a car in view
+//@property (strong, nonatomic) UIDynamicAnimator *animator;
+//@end
 
 @implementation DemoView
 
