@@ -26,7 +26,6 @@
     DemoView *demoView = nil;
     
     switch (self.type) {
-            
         case ActionStraight: // 直行
             demoView = [[ActionStraightView alloc] initWithFrame:self.view.bounds];
             break;

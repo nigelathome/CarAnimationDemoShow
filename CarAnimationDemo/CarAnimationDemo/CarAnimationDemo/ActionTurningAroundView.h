@@ -10,4 +10,6 @@
 
 @interface ActionTurningAroundView : DemoView
 
+@property (strong, nonatomic) UIAttachmentBehavior *attachment;
+
 @end
