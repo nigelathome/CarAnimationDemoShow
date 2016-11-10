@@ -10,10 +10,16 @@
 		91401EFC1DD4206800536417 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401EFB1DD4206800536417 /* main.m */; };
 		91401EFF1DD4206800536417 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401EFE1DD4206800536417 /* AppDelegate.m */; };
 		91401F021DD4206800536417 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401F011DD4206800536417 /* ViewController.m */; };
-		91401F051DD4206800536417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91401F031DD4206800536417 /* Main.storyboard */; };
+		91401F051DD4206800536417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91401F031DD4206800536417 /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
 		91401F081DD4206800536417 /* CarAnimationDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91401F061DD4206800536417 /* CarAnimationDemo.xcdatamodeld */; };
 		91401F0A1DD4206800536417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91401F091DD4206800536417 /* Assets.xcassets */; };
 		91401F0D1DD4206800536417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91401F0B1DD4206800536417 /* LaunchScreen.storyboard */; };
+		91401F161DD4269900536417 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91401F151DD4269900536417 /* CoreGraphics.framework */; };
+		91401F181DD426A400536417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91401F171DD426A400536417 /* Foundation.framework */; };
+		91401F1A1DD426B700536417 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91401F191DD426B700536417 /* CoreFoundation.framework */; };
+		91401F1C1DD426C100536417 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91401F1B1DD426C100536417 /* UIKit.framework */; };
+		91401F1F1DD4313900536417 /* AnimationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401F1E1DD4313900536417 /* AnimationDemoViewController.m */; };
+		91401F221DD43A3C00536417 /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401F211DD43A3C00536417 /* DemoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,14 @@
 		91401F091DD4206800536417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91401F0C1DD4206800536417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91401F0E1DD4206800536417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91401F151DD4269900536417 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91401F171DD426A400536417 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91401F191DD426B700536417 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		91401F1B1DD426C100536417 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91401F1D1DD4313900536417 /* AnimationDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationDemoViewController.h; sourceTree = "<group>"; };
+		91401F1E1DD4313900536417 /* AnimationDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationDemoViewController.m; sourceTree = "<group>"; };
+		91401F201DD43A3C00536417 /* DemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
+		91401F211DD43A3C00536417 /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91401F1C1DD426C100536417 /* UIKit.framework in Frameworks */,
+				91401F1A1DD426B700536417 /* CoreFoundation.framework in Frameworks */,
+				91401F181DD426A400536417 /* Foundation.framework in Frameworks */,
+				91401F161DD4269900536417 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +64,7 @@
 			children = (
 				91401EF91DD4206800536417 /* CarAnimationDemo */,
 				91401EF81DD4206800536417 /* Products */,
+				91401F141DD4269900536417 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +89,10 @@
 				91401F0E1DD4206800536417 /* Info.plist */,
 				91401F061DD4206800536417 /* CarAnimationDemo.xcdatamodeld */,
 				91401EFA1DD4206800536417 /* Supporting Files */,
+				91401F1D1DD4313900536417 /* AnimationDemoViewController.h */,
+				91401F1E1DD4313900536417 /* AnimationDemoViewController.m */,
+				91401F201DD43A3C00536417 /* DemoView.h */,
+				91401F211DD43A3C00536417 /* DemoView.m */,
 			);
 			path = CarAnimationDemo;
 			sourceTree = "<group>";
@@ -80,6 +103,17 @@
 				91401EFB1DD4206800536417 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91401F141DD4269900536417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91401F1B1DD426C100536417 /* UIKit.framework */,
+				91401F191DD426B700536417 /* CoreFoundation.framework */,
+				91401F171DD426A400536417 /* Foundation.framework */,
+				91401F151DD4269900536417 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,12 +142,17 @@
 		91401EEF1DD4206800536417 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+					"车辆移动测试",
+				);
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Apress;
 				TargetAttributes = {
 					91401EF61DD4206800536417 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = PLY5J7C9KB;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -154,8 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				91401F081DD4206800536417 /* CarAnimationDemo.xcdatamodeld in Sources */,
+				91401F221DD43A3C00536417 /* DemoView.m in Sources */,
 				91401F021DD4206800536417 /* ViewController.m in Sources */,
 				91401EFF1DD4206800536417 /* AppDelegate.m in Sources */,
+				91401F1F1DD4313900536417 /* AnimationDemoViewController.m in Sources */,
 				91401EFC1DD4206800536417 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,10 +317,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PLY5J7C9KB;
 				INFOPLIST_FILE = CarAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.apress.CarAnimationDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = CarAnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2568db1e-5037-4c20-8cad-034e1b44bfc9";
+				PROVISIONING_PROFILE_SPECIFIER = nig;
 			};
 			name = Debug;
 		};
@@ -287,10 +332,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PLY5J7C9KB;
 				INFOPLIST_FILE = CarAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.apress.CarAnimationDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = CarAnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2568db1e-5037-4c20-8cad-034e1b44bfc9";
+				PROVISIONING_PROFILE_SPECIFIER = nig;
 			};
 			name = Release;
 		};
@@ -304,7 +353,7 @@
 				91401F101DD4206800536417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		91401F111DD4206800536417 /* Build configuration list for PBXNativeTarget "CarAnimationDemo" */ = {
 			isa = XCConfigurationList;
@@ -313,6 +362,7 @@
 				91401F131DD4206800536417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 

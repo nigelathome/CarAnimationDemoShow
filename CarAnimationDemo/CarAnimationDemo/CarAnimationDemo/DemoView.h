@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DemoView.h
 //  CarAnimationDemo
 //
 //  Created by Nigel Lee on 10/11/2016.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
-
+/** 
+ * base class used for defining import variable n method
+ */
+@interface DemoView : UIView
 
 @end
-
