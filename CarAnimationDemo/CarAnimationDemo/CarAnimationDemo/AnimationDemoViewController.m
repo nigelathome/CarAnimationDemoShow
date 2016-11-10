@@ -7,10 +7,14 @@
 //
 
 #import "AnimationDemoViewController.h"
+#import "DemoView.h"
+#import "ActionStraightView.h"
+#import "ActionTurningAroundView.h"
+#import "ActionMovingContinuingView.h"
 
 @interface AnimationDemoViewController ()
 
-@property (assign, nonatomic) ActionItemType type;
+//@property (assign, nonatomic) ActionItemType type;
 
 @end
 
@@ -19,6 +23,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    DemoView *demoView = nil;
+    
+    switch (self.type) {
+            
+        case ActionStraight: // 直行
+            demoView = [[ActionStraightView alloc] initWithFrame:self.view.bounds];
+            break;
+            
+        case ActionTurningAround: // 掉头
+            demoView = [[ActionTurningAroundView alloc] initWithFrame:self.view.bounds];
+            break;
+            
+        case ActionMovingContinuing: // 连续行驶
+            demoView = [[ActionMovingContinuingView alloc] initWithFrame:self.view.bounds];
+            break;
+            
+        default:
+            break;
+    }
+    
+    [self.view addSubview:demoView];
+
+    
 }
 
 - (void)didReceiveMemoryWarning {

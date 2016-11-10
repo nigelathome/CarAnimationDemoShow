@@ -21,6 +21,8 @@
 		91401F1F1DD4313900536417 /* AnimationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401F1E1DD4313900536417 /* AnimationDemoViewController.m */; };
 		91401F221DD43A3C00536417 /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401F211DD43A3C00536417 /* DemoView.m */; };
 		91401F251DD43E6C00536417 /* ActionStraightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401F241DD43E6C00536417 /* ActionStraightView.m */; };
+		91401F281DD43FE400536417 /* ActionTurningAroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401F271DD43FE400536417 /* ActionTurningAroundView.m */; };
+		91401F2B1DD43FF600536417 /* ActionMovingContinuingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91401F2A1DD43FF600536417 /* ActionMovingContinuingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,10 @@
 		91401F211DD43A3C00536417 /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
 		91401F231DD43E6C00536417 /* ActionStraightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionStraightView.h; sourceTree = "<group>"; };
 		91401F241DD43E6C00536417 /* ActionStraightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionStraightView.m; sourceTree = "<group>"; };
+		91401F261DD43FE400536417 /* ActionTurningAroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionTurningAroundView.h; sourceTree = "<group>"; };
+		91401F271DD43FE400536417 /* ActionTurningAroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionTurningAroundView.m; sourceTree = "<group>"; };
+		91401F291DD43FF600536417 /* ActionMovingContinuingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionMovingContinuingView.h; sourceTree = "<group>"; };
+		91401F2A1DD43FF600536417 /* ActionMovingContinuingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionMovingContinuingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,10 @@
 				91401F211DD43A3C00536417 /* DemoView.m */,
 				91401F231DD43E6C00536417 /* ActionStraightView.h */,
 				91401F241DD43E6C00536417 /* ActionStraightView.m */,
+				91401F261DD43FE400536417 /* ActionTurningAroundView.h */,
+				91401F271DD43FE400536417 /* ActionTurningAroundView.m */,
+				91401F291DD43FF600536417 /* ActionMovingContinuingView.h */,
+				91401F2A1DD43FF600536417 /* ActionMovingContinuingView.m */,
 			);
 			path = CarAnimationDemo;
 			sourceTree = "<group>";
@@ -203,6 +213,8 @@
 				91401F251DD43E6C00536417 /* ActionStraightView.m in Sources */,
 				91401EFF1DD4206800536417 /* AppDelegate.m in Sources */,
 				91401F1F1DD4313900536417 /* AnimationDemoViewController.m in Sources */,
+				91401F281DD43FE400536417 /* ActionTurningAroundView.m in Sources */,
+				91401F2B1DD43FF600536417 /* ActionMovingContinuingView.m in Sources */,
 				91401EFC1DD4206800536417 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

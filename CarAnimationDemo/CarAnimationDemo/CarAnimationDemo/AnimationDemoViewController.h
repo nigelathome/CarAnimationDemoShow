@@ -15,5 +15,6 @@ typedef NS_ENUM(NSInteger, ActionItemType) {
 };
 
 @interface AnimationDemoViewController : UIViewController
+@property (assign, nonatomic) ActionItemType type;
 
 @end

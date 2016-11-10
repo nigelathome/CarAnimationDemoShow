@@ -51,7 +51,11 @@
 #pragma mark - tableView delegate method
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    AnimationDemoViewController *AnimationDemoViewController;
+    AnimationDemoViewController *animationDemoVC = [[AnimationDemoViewController alloc]init];
+    animationDemoVC.title = self.items[indexPath.row];
+    animationDemoVC.type = indexPath.row;
+    
+    [self.navigationController pushViewController:animationDemoVC animated:YES];
 }
 
 
