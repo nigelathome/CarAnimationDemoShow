@@ -48,6 +48,15 @@
     return cell;
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    if (section == 0) {
+        return @"车辆动画测试";
+    } else {
+        return @"都是头二";
+    }
+    
+}
 #pragma mark - tableView delegate method
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
