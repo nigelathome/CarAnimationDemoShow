@@ -51,12 +51,28 @@
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
     if (section == 0) {
-        return @"车辆动画测试";
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0,0,320,15)];
+        label.textAlignment = NSTextAlignmentCenter;
+        label.text = @"车辆动画测试";
+        return label.text;
     } else {
-        return @"都是头二";
+        return nil;
     }
-    
 }
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    if (section == 0) {
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0,0,100,500)];
+        label.textAlignment = NSTextAlignmentCenter;
+        label.text = @"车辆动画测试";
+        return label;
+    } else {
+        return nil;
+    }
+
+}
+
 #pragma mark - tableView delegate method
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
